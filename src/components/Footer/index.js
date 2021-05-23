@@ -8,8 +8,8 @@ function Footer () {
         <div class="container">
             <div class="row">
             <div class="col">
-                <h5 class="white-text">Footer Content</h5>
-                <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+                <h5 class="white-text">Thanks for viewing my page!</h5>
+                <p class="grey-text text-lighten-4">If you liked my page, connect with me through my contact page</p>
             </div>
             <div class="col">
                 <h5 class="white-text">Links</h5>

@@ -3,11 +3,14 @@ import React from "react";
 function Contact () {
     return (
         <div>
-            <h1>Contact Page</h1>
-
-            <p>
-                Pariatur duis dolore consequat cillum nulla officia anim et mollit mollit. Et ipsum duis id exercitation et duis. Irure culpa velit reprehenderit non consequat Lorem non Lorem Lorem sint. Aute in Lorem ullamco laboris irure officia officia et aliqua adipisicing ullamco eiusmod ut quis.
-            </p>
+        <h1 className="center"><b>Contact Information and Links!</b></h1>
+        <div className="collection center">
+          <a href="https://twitter.com/SuiterTrace" className="collection-item blue white-text center">My Twitter Page</a><br />
+          <a href="https://github.com/ThatSkiPatroller" className="collection-item grey black-text center">My Github Page</a><br />
+          <a href="https://linkedin.com/in/trace-suiter" className="collection-item blue darken-4 white-text center">My Linkedin Page</a><br />
+          <a className="collection-item purple white-text">Phone Number: 936-671-3228</a><br />
+          <a className="collection-item teal white-text">E-mail: t.suit@utexas.edu</a>
+        </div>
         </div>
     )
 }
