@@ -1,11 +1,13 @@
 import React from "react";
+import Header from '../components/Header';
+import AResume from '../components/Resume/MyResumeThatIsUpdated.pdf';
+import {Styles} from '@material-ui/core';
 
 function Resume () {
     return (
         <div>
-            <h1>Resume Page</h1>
-
-            <embed src="C:\Users\tsuit\codeWorkLaptop\React_Portfolio\src\components\Resume\Updated_Resume_5_23_21_oof.pdf"></embed>
+            <Header header='Resume' />
+            <embed src={AResume} width='950px' height='900px'></embed>
         </div>
     )
 }

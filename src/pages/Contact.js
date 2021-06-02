@@ -1,9 +1,10 @@
 import React from "react";
+import Header from '../components/Header';
 
 function Contact () {
     return (
         <div>
-        <h1 className="center"><b>Contact Information and Links!</b></h1>
+        <Header header='Contact Information and Links!' />
         <div className="collection center">
           <a href="https://twitter.com/SuiterTrace" className="collection-item blue white-text center">My Twitter Page</a><br />
           <a href="https://github.com/ThatSkiPatroller" className="collection-item grey black-text center">My Github Page</a><br />

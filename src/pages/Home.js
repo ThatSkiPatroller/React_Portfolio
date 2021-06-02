@@ -1,10 +1,11 @@
 import React from "react";
+import Header from '../components/Header';
 
 
 function Home () {
     return (
         <div>
-            <h1>Home Page</h1>
+            <Header header='Home' />
 
             <p>     
             Full stack web developer and graduate of The University of Texas at Austin with a bachelors in Biology, 
