@@ -30,14 +30,16 @@ const icons = {
   transform: 'translate(-50%, -10%)',
   color: 'white',
   fontSize: '60px',
+  display: 'flex',
+  flexDirection: 'row'
 }
 
 const threeBoxes = {
-  color: 'white',
+  color: 'rgb(255, 255, 255)',
   fontSize: '20px',
   top: '50%',
   position: 'absolute',
-
+  textShadow: '1px 0 black, 0 1px black, 1px 0 black, 0 1px black'
 }
 
 const box1 = {
@@ -79,23 +81,23 @@ function Bio () {
           <Grid container direction='row' style={threeBoxes}>
             <Grid container item xs center alignText='center' style={box1}>
               <div >
-                <Typography variant='display2'> 
+                <Typography variant='display2'><b>
                 Full stack web developer and graduate <br></br>of The University of Texas at Austin <br></br>with a bachelors in Biology, a minor <br></br>in French and a Certificate in<br></br> Full Stack Development
-                </Typography>
+                </b></Typography>
               </div>
             </Grid>
             <Grid container item center xs style={box2}>
               <div>
-                <Typography variant='display2'> 
+                <Typography variant='display2'><b>
                 My core skills include JavaScript, CSS, <br></br>HTML, Node.js, React.js, Mongoose/MongoDB, MySQL, Sequelize, Jest, <br></br>jQuery,  Handlebars.js, ExpressJS, and GitHub/Git BASH as well as <br></br> an extensive background in teamwork
-                </Typography>
+                </b></Typography>
               </div>
             </Grid>
             <Grid container item center xs style={box3}>
               <div>
-                <Typography variant='display2'> 
+                <Typography variant='display2'><b>
                 Being apart of the National Ski Patrol I <br></br>have learned how to make split second <br></br>decisions where circumstances can often be <br></br>life altering. I take every mistake as <br></br>a learning experience
-                </Typography>
+                </b></Typography>
               </div>
             </Grid>
           </Grid>
