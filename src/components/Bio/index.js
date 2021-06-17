@@ -6,7 +6,7 @@ import image from '../Images/travel-1749508_1920.jpg';
 import image2 from '../Images/mountaineer-2080138_1920.jpg';
 import image3 from '../Images/austin-1402097_1920.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faSkiing, faServer, faCodeBranch, faCode, faAtom, faChevronDown, faLaughSquint, faExclamationTriangle } from '@fortawesome/free-solid-svg-icons';
+import { faSkiing, faServer, faCodeBranch, faCode, faAtom, faChevronDown, faLaughSquint, faExclamationTriangle, faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons';
 import { keys } from '@material-ui/core/styles/createBreakpoints';
 
 
@@ -61,6 +61,17 @@ const iconic = {
   margin: '20px'
 }
 
+const locationIcon = {
+  left: '50%',
+  top: '50%',
+  position: 'absolute',
+  padding: '20px',
+  transform: 'translate(-50%, -50%)',
+  color: 'white',
+  fontSize: '60px',
+  textShadow: '1px 0 black, 0 1px black, 1px 0 black, 0 1px black'
+}
+
 function Bio () {
   return (
     <div style={{ textAlign: 'center' }}>
@@ -106,11 +117,11 @@ function Bio () {
       <h1><FontAwesomeIcon icon={faChevronDown} /></h1>
       <Parallax bgImage={image3}  strength={700}>
         <div style={{ height: 500}}>
-          <div style={inlineStyle}>
+          <div style={locationIcon}>
+          <FontAwesomeIcon icon={faMapMarkerAlt} /><span> </span>
           <Typography variant='display2'> 
-            Hi, I'm Trace
-        </Typography>
-          </div>
+            Austin, Texas
+        </Typography></div>
         </div>
       </Parallax>
       <h1><FontAwesomeIcon icon={faLaughSquint} /></h1>
