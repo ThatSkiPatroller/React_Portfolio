@@ -12,7 +12,7 @@ function Navbar() {
   return (
     <nav>
     <div className="nav-wrapper">
-      <a href="/home" class="brand-logo left"></a>
+      <a href="/React_Portfolio/Home" class="brand-logo left"></a>
       <ul id="nav" class="right hide-on-med-and-down">
       <li className="nav-item">
         <Link to="/" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>
@@ -21,7 +21,7 @@ function Navbar() {
       </li>
       <li className="nav-item">
         <Link
-          to="/Projects"
+          to="/React_Portfolio/Projects"
           className={location.pathname === "/Projects" ? "nav-link active" : "nav-link"}
         >
           Projects
@@ -29,7 +29,7 @@ function Navbar() {
       </li>
       <li className="nav-item">
         <Link
-          to="/contact"
+          to="/React_Portfolio/Contact"
           className={location.pathname === "/contact" ? "nav-link active" : "nav-link"}
         >
           Contact
@@ -37,7 +37,7 @@ function Navbar() {
       </li>
       <li className="nav-item">
         <Link
-          to="/resume"
+          to="/React_Portfolio/Resume"
           className={location.pathname === "/resume" ? "nav-link active" : "nav-link"}
         >
           Resume
