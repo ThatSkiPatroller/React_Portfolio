@@ -12,7 +12,7 @@ function App() {
   return (
     <HashRouter>
         <NavTabs />
-        <Route exact path="/React_Portfolio/#" component={Home} />
+        <Route exact path="/React_Portfolio" component={Home} />
         <Route exact path="/React_Portfolio/Projects" component={Projects} />
         <Route exact path="/React_Portfolio/Contact" component={Contact} />
         <Route exact path="/React_Portfolio/Resume" component={Resume} />
