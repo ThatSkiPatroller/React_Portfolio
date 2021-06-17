@@ -12,7 +12,7 @@ function Navbar() {
   return (
     <nav>
     <div className="nav-wrapper">
-      <a href="/React_Portfolio/Home" class="brand-logo left"></a>
+      <a href="/React_Portfolio" class="brand-logo left"></a>
       <ul id="nav" class="right hide-on-med-and-down">
       <li className="nav-item">
         <Link to="/" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>
