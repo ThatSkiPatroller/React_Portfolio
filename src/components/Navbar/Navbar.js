@@ -1,5 +1,6 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
+import { Typography } from '@material-ui/core';
 import "./style.css";
 
 function Navbar() {
@@ -10,9 +11,9 @@ function Navbar() {
 
   return (
     <nav>
-    <div className="nav-wrapper indigo lighten-1">
-      <a href="#" class="brand-logo left">Trace Suiter</a>
-      <ul id="nav-mobile" class="right hide-on-med-and-down">
+    <div className="nav-wrapper">
+      <a href="/home" class="brand-logo left"></a>
+      <ul id="nav" class="right hide-on-med-and-down">
       <li className="nav-item">
         <Link to="/" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>
           Home
