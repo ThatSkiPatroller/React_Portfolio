@@ -12,10 +12,9 @@ function Navbar() {
   return (
     <nav>
     <div className="nav-wrapper">
-      <a href="/React_Portfolio" class="brand-logo left"></a>
       <ul id="nav" class="right hide-on-med-and-down">
       <li className="nav-item">
-        <Link to="/" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>
+        <Link to="/React_Portfolio" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>
           Home
         </Link>
       </li>
