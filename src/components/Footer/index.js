@@ -6,13 +6,13 @@ function Footer () {
         return (
 
         <footer className="page-footer">
-        <div className="container">
+        <div className="container center">
             <div className="row">
             <div className="col brown-text righty">
                 <h5>Thanks for viewing my page!</h5>
                 <p>If you liked my page, connect with me <br></br>through my contact page --></p>
             </div>
-            <div className="col pt center">
+            <div className="col pt">
                 <h5 className='brown-text'>Links</h5>
                 <ul>
                 <li><a href="/" className='brown-text'>Home</a></li>

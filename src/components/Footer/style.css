@@ -1,21 +1,15 @@
-body {
+/* body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
-}
+} */
 
-main {
+/* main {
   flex: 1 0 auto;
-}
+} */
 
 .page-footer {
   background-color: rgb(251, 223, 186);
 }
 
-.pt {
-  margin-left: 460px;
-}
 
-.righty {
-  margin-left: -100px
-}

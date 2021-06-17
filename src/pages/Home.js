@@ -7,7 +7,6 @@ import Div from '../components/Div';
 function Home () {
     return (
         <div>
-            <Div />
             <Bio />
            
         </div>
