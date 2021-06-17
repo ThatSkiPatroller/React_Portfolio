@@ -9,9 +9,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSkiing, faServer, faCodeBranch, faCode, faAtom, faChevronDown, faLaughSquint, faExclamationTriangle, faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons';
 import { keys } from '@material-ui/core/styles/createBreakpoints';
 
-
-// https://mui.wertarbyte.com/#material-ui-image
-
 const inlineStyle = {
   borderStyle: 'solid',
   left: '50%',
