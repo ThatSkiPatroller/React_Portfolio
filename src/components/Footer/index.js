@@ -15,10 +15,10 @@ function Footer () {
             <div className="col pt">
                 <h5 className='brown-text'>Links</h5>
                 <ul>
-                <li><a href="/" className='brown-text'>Home</a></li>
-                <li><a href="/Projects" className='brown-text'>Projects</a></li>
-                <li><a href="/Contact" className='brown-text'>Contact</a></li>
-                <li><a href="/Resume" className='brown-text'>Resume</a></li>
+                <li><a href="/React_Portfolio" className='brown-text'>Home</a></li>
+                <li><a href="/React_Portfolio/Projects" className='brown-text'>Projects</a></li>
+                <li><a href="/React_Portfolio/Contact" className='brown-text'>Contact</a></li>
+                <li><a href="/React_Portfolio/Resume" className='brown-text'>Resume</a></li>
                 </ul>
             </div>
             </div>
