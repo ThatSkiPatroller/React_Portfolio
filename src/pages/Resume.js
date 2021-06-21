@@ -1,6 +1,6 @@
 import React from "react";
 import Header from '../components/Header';
-import AResume from '../components/Resume/MyResumeThatIsUpdated.pdf';
+import AResume from '../components/Resume/TextResume.pdf';
 import {Grid} from '@material-ui/core';
 
 function Resume () {
