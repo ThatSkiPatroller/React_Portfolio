@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/React_Portfolio/static/css/main.59faee6f.chunk.css",
-    "main.js": "/React_Portfolio/static/js/main.7f6ee4e0.chunk.js",
-    "main.js.map": "/React_Portfolio/static/js/main.7f6ee4e0.chunk.js.map",
+    "main.js": "/React_Portfolio/static/js/main.10a6a9ad.chunk.js",
+    "main.js.map": "/React_Portfolio/static/js/main.10a6a9ad.chunk.js.map",
     "runtime-main.js": "/React_Portfolio/static/js/runtime-main.8a6a55d9.js",
     "runtime-main.js.map": "/React_Portfolio/static/js/runtime-main.8a6a55d9.js.map",
     "static/js/2.00f7e824.chunk.js": "/React_Portfolio/static/js/2.00f7e824.chunk.js",
@@ -14,10 +14,10 @@
     "static/js/2.00f7e824.chunk.js.LICENSE.txt": "/React_Portfolio/static/js/2.00f7e824.chunk.js.LICENSE.txt",
     "static/media/AutoWizardPicture.93ae3579.PNG": "/React_Portfolio/static/media/AutoWizardPicture.93ae3579.PNG",
     "static/media/Budget_Tracker_Card_Image.8d8e2638.PNG": "/React_Portfolio/static/media/Budget_Tracker_Card_Image.8d8e2638.PNG",
-    "static/media/MyResumeThatIsUpdated.efd5ecbe.pdf": "/React_Portfolio/static/media/MyResumeThatIsUpdated.efd5ecbe.pdf",
     "static/media/Note_Taker_Card_Image.5d341d4a.PNG": "/React_Portfolio/static/media/Note_Taker_Card_Image.5d341d4a.PNG",
     "static/media/Project1_Card_Image.4d64f50a.PNG": "/React_Portfolio/static/media/Project1_Card_Image.4d64f50a.PNG",
     "static/media/Project2_Card_Image.38330e04.PNG": "/React_Portfolio/static/media/Project2_Card_Image.38330e04.PNG",
+    "static/media/TextResume.d8957bc9.pdf": "/React_Portfolio/static/media/TextResume.d8957bc9.pdf",
     "static/media/Workout_Tracker_Card_Image.14fbf14d.PNG": "/React_Portfolio/static/media/Workout_Tracker_Card_Image.14fbf14d.PNG",
     "static/media/austin-1402097_1920.80ce3672.jpg": "/React_Portfolio/static/media/austin-1402097_1920.80ce3672.jpg",
     "static/media/mountaineer-2080138_1920.0ac2a959.jpg": "/React_Portfolio/static/media/mountaineer-2080138_1920.0ac2a959.jpg",
@@ -27,6 +27,6 @@
     "static/js/runtime-main.8a6a55d9.js",
     "static/js/2.00f7e824.chunk.js",
     "static/css/main.59faee6f.chunk.css",
-    "static/js/main.7f6ee4e0.chunk.js"
+    "static/js/main.10a6a9ad.chunk.js"
   ]
 }
