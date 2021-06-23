@@ -12,7 +12,7 @@ function App() {
   return (
     <HashRouter>
         <NavTabs />
-        <Route exact path="/Home" component={Home} />
+        <Route exact path="/" component={Home} />
         <Route exact path="/Projects" component={Projects} />
         <Route exact path="/Contact" component={Contact} />
         <Route exact path="/Resume" component={Resume} />

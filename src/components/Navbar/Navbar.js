@@ -14,7 +14,7 @@ function Navbar() {
     <div className="nav-wrapper">
       <ul id="nav" class="right hide-on-med-and-down">
       <li className="nav-item">
-        <Link to="/Home" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>
+        <Link to="/" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>
           Home
         </Link>
       </li>
