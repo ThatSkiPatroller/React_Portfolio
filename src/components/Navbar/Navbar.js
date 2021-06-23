@@ -5,7 +5,7 @@ import "./style.css";
 
 function Navbar() {
   // We'll go into the Hooks API later, for now, we are just using some code
-  // from the react-router docs (https://reacttraining.com/react-router/web/api/Hooks/uselocation)
+  // from the react-router docs (https://reacttraining.com/react-router/web/api/Hooks/ )
   // This allows the component to check the route any time the user uses a link to navigate.
   const location = useLocation();
 
@@ -14,13 +14,13 @@ function Navbar() {
     <div className="nav-wrapper">
       <ul id="nav" class="right hide-on-med-and-down">
       <li className="nav-item">
-        <Link to="/React_Portfolio" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>
+        <Link to="/Home" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>
           Home
         </Link>
       </li>
       <li className="nav-item">
         <Link
-          to="/React_Portfolio/Projects"
+          to="/Projects"
           className={location.pathname === "/Projects" ? "nav-link active" : "nav-link"}
         >
           Projects
@@ -28,7 +28,7 @@ function Navbar() {
       </li>
       <li className="nav-item">
         <Link
-          to="/React_Portfolio/Contact"
+          to="/Contact"
           className={location.pathname === "/contact" ? "nav-link active" : "nav-link"}
         >
           Contact
@@ -36,7 +36,7 @@ function Navbar() {
       </li>
       <li className="nav-item">
         <Link
-          to="/React_Portfolio/Resume"
+          to="/Resume"
           className={location.pathname === "/resume" ? "nav-link active" : "nav-link"}
         >
           Resume
