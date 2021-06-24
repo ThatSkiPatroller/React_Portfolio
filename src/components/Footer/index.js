@@ -1,6 +1,7 @@
 import React from "react";
 import "./style.css"
-import { Container, Grid, Box, Link } from '@material-ui/core';
+import { Link, useLocation } from "react-router-dom";
+import { Container, Grid, Box } from '@material-ui/core';
 
 function Footer () {
     const firstBar = {
@@ -11,6 +12,7 @@ function Footer () {
     const copyright = {
         backgroundColor: 'rgb(245, 200, 141)'
     }
+    const location = useLocation();
         return (
             <div>
             <Grid container style={firstBar} justify='center' alignItems='center'>
@@ -21,11 +23,27 @@ function Footer () {
                 <Grid item xs={3}>
                     <h5 className='brown-text'>Links</h5>
                 <ul>
-                 <li><a href="/" className='brown-text'>Home</a></li>
-                 <li><a href="/Projects" className='brown-text'>Projects</a></li>
-                 <li><a href="/Contact" className='brown-text'>Contact</a></li>
-                 <li><a href="/Resume" className='brown-text'>Resume</a></li>
-                 </ul>
+                    <li>
+                        <Link to="/" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>
+                        Home
+                        </Link>
+                    </li>
+                    <li>
+                        <Link to="/Projects" className={location.pathname === "/Projects" ? "nav-link active" : "nav-link"}>
+                        Projects
+                        </Link>
+                    </li>
+                    <li>
+                        <Link to="/Contact" className={location.pathname === "/contact" ? "nav-link active" : "nav-link"}>
+                            Contact
+                        </Link>
+                    </li>
+                    <li>
+                        <Link to="/Resume" className={location.pathname === "/resume" ? "nav-link active" : "nav-link"}>
+                            Resume
+                        </Link>
+                    </li>
+                </ul>
                 </Grid>
             </Grid>
             <div style={copyright}>
