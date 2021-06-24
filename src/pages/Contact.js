@@ -21,12 +21,12 @@ function Contact () {
   }
 
   const something3 = {
-    width: '215px',
+    width: '230px',
     marginTop: '10px'
   }
 
   const something4 = {
-    width: '200px'
+    width: '220px'
   }
 
   const margin = {
@@ -36,6 +36,7 @@ function Contact () {
   const margin2 = {
     padding: '35px'
   }
+  
 
     return (
         <div>

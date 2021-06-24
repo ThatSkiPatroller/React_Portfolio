@@ -1,5 +1,7 @@
 import React from "react";
-import { Card, CardMedia, Button, Typography, CardContent, makeStyles, CardActions, CardActionArea } from '@material-ui/core';
+import { Card, CardMedia, Button, Box, CardContent, makeStyles, CardActions, CardActionArea } from '@material-ui/core';
+import { useHover } from "react-use-gesture";
+import './style.css'
 
 
 const useStyles = makeStyles({
@@ -10,7 +12,23 @@ const useStyles = makeStyles({
     media: {
         height: 200,
         width: 350,
+    },  
+    btn: {
+        backgroundColor: 'rgb(251, 223, 186)',
+        '&:hover': {
+            backgroundColor: 'rgb(189, 218, 195)'
+        },
+        color: 'brown',
     },
+    box: {
+        height: 50,
+        display: 'flex',
+        justifyContent: 'flex-start',
+        alignItems: 'flex-start'
+    },
+    nd: {
+        height: 200
+    }
 });
 
 function ProjCard (props) {
@@ -24,23 +42,25 @@ function ProjCard (props) {
                         image={props.img}
                         title={props.name}
                     />
-                    <CardContent>
-                        <Typography gutterBottom variant='h5' component='h2'>
+                    <CardContent className={classes.nd}>
+                        <h4>
                             {props.name}
-                        </Typography>
-                        <Typography variant='body2' color='textSecondary' component='p'>
+                        </h4>
+                        <p>
                             {props.description}
-                        </Typography>
+                        </p>
                     </CardContent>
                 </CardActionArea>
+                <Box component='span' m={1} className={classes.box}>
                 <CardActions>
-                    <Button size='small' color='primary' href={props.repo}>
+                    <Button size='small' className={classes.btn} href={props.repo}>
                         Github Repo
                     </Button>
-                    <Button size='small' color='primary' href={props.deployed}>
+                    <Button size='small' className={classes.btn} href={props.deployed}>
                         Deployed App
                     </Button>
                 </CardActions>
+                </Box>
             </Card>
     )
 }

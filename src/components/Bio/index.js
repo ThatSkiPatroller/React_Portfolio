@@ -15,10 +15,10 @@ const inlineStyle = {
   left: '50%',
   top: '50%',
   position: 'absolute',
-  padding: '20px',
+  padding: '30px',
   transform: 'translate(-50%, -50%)',
   color: 'white',
-  fontSize: '60px'
+  fontSize: '60px',
 }
 
 const icons = {
@@ -37,7 +37,7 @@ const threeBoxes = {
   fontSize: '21px',
   top: '30%',
   position: 'absolute',
-  textShadow: '3px 3px black, 0 3px black, 3px 0 black, 0 3px black'
+  textShadow: '3px 0 black, 0 3px black, 3px 0 black, 0 3px black',
 }
 
 const iconic = {
@@ -61,8 +61,8 @@ function Bio () {
       <h1><FontAwesomeIcon icon={faExclamationTriangle} /></h1>
       <Parallax bgImage={image}  strength={700}>
         <div style={{ height: 500}}>
-          <div style={inlineStyle} className='firsbox'>
-          <Typography variant='display2'> 
+          <div style={inlineStyle} >
+          <Typography variant='display2' className='firstbox'> 
             Hi, I'm Trace
         </Typography>
           </div>
@@ -76,14 +76,14 @@ function Bio () {
           
             <Grid  item xs={4} >
               <div className='firstBio'>
-                <Typography variant='display2' className='firstText'><b>
+                <Typography variant='display2' className='firstText' ><b>
                 Full stack web developer and graduate of The University of Texas at Austin with a bachelors in Biology, a minor in French and a Certificate in Full Stack Development
                 </b></Typography>
               </div>
             </Grid>
             <Grid item xs={4}>
               <div className='secondBio'>
-                <Typography variant='display2'><b>
+                <Typography variant='display2' ><b>
                 My core skills include JavaScript, CSS, HTML, Node.js, React.js, Mongoose/MongoDB, MySQL, Sequelize, Jest, jQuery,  Handlebars.js, ExpressJS, and GitHub/Git BASH 
                 </b></Typography>
               </div>
