@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Grid, Typography, Container } from '@material-ui/core';
+import { Grid, Typography, Button } from '@material-ui/core';
 import './style.css';
 import { Parallax } from 'react-parallax';
 import image from '../Images/travel-1749508_1920.jpg';
@@ -8,6 +8,7 @@ import image3 from '../Images/austin-1402097_1920.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSkiing, faServer, faCodeBranch, faCode, faAtom, faChevronDown, faLaughSquint, faExclamationTriangle, faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons';
 import { keys } from '@material-ui/core/styles/createBreakpoints';
+
 
 const inlineStyle = {
   borderStyle: 'solid',
@@ -32,26 +33,11 @@ const icons = {
 }
 
 const threeBoxes = {
-  color: 'rgb(255, 255, 255)',
-  fontSize: '20px',
-  top: '50%',
+  color: 'white',
+  fontSize: '21px',
+  top: '30%',
   position: 'absolute',
-  textShadow: '1px 0 black, 0 1px black, 1px 0 black, 0 1px black'
-}
-
-const box1 = {
-  transform: 'translate(15%, -30%)',
-  
-}
-
-const box2 = {
-  transform: 'translate(6%, -30%)',
-  
-}
-
-const box3 = {
-  transform: 'translate(15%, -30%)',
- 
+  textShadow: '3px 3px black, 0 3px black, 3px 0 black, 0 3px black'
 }
 
 const iconic = {
@@ -75,7 +61,7 @@ function Bio () {
       <h1><FontAwesomeIcon icon={faExclamationTriangle} /></h1>
       <Parallax bgImage={image}  strength={700}>
         <div style={{ height: 500}}>
-          <div style={inlineStyle}>
+          <div style={inlineStyle} className='firsbox'>
           <Typography variant='display2'> 
             Hi, I'm Trace
         </Typography>
@@ -86,25 +72,28 @@ function Bio () {
       <Parallax bgImage={image2}  strength={700}>
         <div style={{ height: 500}}>
           <div style={icons}><FontAwesomeIcon icon={faSkiing} style={iconic}/><FontAwesomeIcon icon={faServer} style={iconic}/><FontAwesomeIcon icon={faCodeBranch} style={iconic}/><FontAwesomeIcon icon={faCode} style={iconic}/><FontAwesomeIcon icon={faAtom} style={iconic}/></div>
-          <Grid container direction='row' style={threeBoxes}>
-            <Grid container item xs center alignText='center' style={box1}>
-              <div >
-                <Typography variant='display2'><b>
-                Full stack web developer and graduate <br></br>of The University of Texas at Austin <br></br>with a bachelors in Biology, a minor <br></br>in French and a Certificate in<br></br> Full Stack Development
+          <Grid container direction='row' style={threeBoxes} justify='center'>
+          
+            <Grid  item xs={4} >
+              <div className='firstBio'>
+                <Typography variant='display2' className='firstText'><b>
+                Full stack web developer and graduate of The University of Texas at Austin with a bachelors in Biology, a minor in French and a Certificate in Full Stack Development
                 </b></Typography>
               </div>
             </Grid>
-            <Grid container item center xs style={box2}>
-              <div>
+            <Grid item xs={4}>
+              <div className='secondBio'>
                 <Typography variant='display2'><b>
-                My core skills include JavaScript, CSS, <br></br>HTML, Node.js, React.js, Mongoose/MongoDB, MySQL, Sequelize, Jest, <br></br>jQuery,  Handlebars.js, ExpressJS, and GitHub/Git BASH as well as <br></br> an extensive background in teamwork
+                My core skills include JavaScript, CSS, HTML, Node.js, React.js, Mongoose/MongoDB, MySQL, Sequelize, Jest, jQuery,  Handlebars.js, ExpressJS, and GitHub/Git BASH 
                 </b></Typography>
               </div>
             </Grid>
-            <Grid container item center xs style={box3}>
-              <div>
+            <Grid  item xs={4}>
+              <div className='thirdBio'>
                 <Typography variant='display2'><b>
-                Being apart of the National Ski Patrol I <br></br>have learned how to make split second <br></br>decisions where circumstances can often be <br></br>life altering. I take every mistake as <br></br>a learning experience
+                Fast decision making 
+                and teamwork are core skill I have taken from my work as a first responder and utilize in 
+                software development
                 </b></Typography>
               </div>
             </Grid>
@@ -128,7 +117,6 @@ function Bio () {
         </Typography>
       </Grid>  */}
       </div>
-      
     )
 }
 
