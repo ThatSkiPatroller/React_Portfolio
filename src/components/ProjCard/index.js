@@ -1,6 +1,7 @@
 import React from "react";
 import { Card, CardMedia, Button, Box, CardContent, makeStyles, CardActions, CardActionArea } from '@material-ui/core';
 import { useHover } from "react-use-gesture";
+import image from '../Images/AutoWizardPicture.PNG';
 import './style.css'
 
 
@@ -8,6 +9,9 @@ const useStyles = makeStyles({
     root: {
         maxWidth: 345,
         margin: '10px',
+        backgroundColor: 'rgb(206, 203, 248)',
+        color: 'black'
+        
         },
     media: {
         height: 200,
@@ -27,7 +31,8 @@ const useStyles = makeStyles({
         alignItems: 'flex-start'
     },
     nd: {
-        height: 200
+        height: 200,
+        
     }
 });
 
