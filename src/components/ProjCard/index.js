@@ -9,7 +9,7 @@ const useStyles = makeStyles({
     root: {
         maxWidth: 345,
         margin: '10px',
-        backgroundColor: 'rgb(206, 203, 248)',
+        backgroundColor: 'rgb(175, 175, 175)',
         color: 'black'
         
         },
