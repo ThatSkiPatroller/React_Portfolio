@@ -1,7 +1,5 @@
 import React from "react";
 import { Card, CardMedia, Button, Box, CardContent, makeStyles, CardActions, CardActionArea } from '@material-ui/core';
-import { useHover } from "react-use-gesture";
-import image from '../Images/AutoWizardPicture.PNG';
 import './style.css'
 
 

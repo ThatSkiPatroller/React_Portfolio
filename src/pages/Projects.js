@@ -5,7 +5,7 @@ import WorkoutTracker from "../components/Images/Workout_Tracker_Card_Image.PNG"
 import Project1 from "../components/Images/Project1_Card_Image.PNG";
 import Project2 from "../components/Images/Project2_Card_Image.PNG";
 import ProjCard from '../components/ProjCard';
-import { Grid, Typography } from '@material-ui/core';
+import { Grid } from '@material-ui/core';
 import Header from '../components/Header';
 import Project3 from '../components/Images/AutoWizardPicture.PNG';
 
