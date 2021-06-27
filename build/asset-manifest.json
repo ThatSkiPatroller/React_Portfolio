@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/React_Portfolio/static/css/main.10ea7aca.chunk.css",
+    "main.js": "/React_Portfolio/static/js/main.e5c4ce71.chunk.js",
+    "main.js.map": "/React_Portfolio/static/js/main.e5c4ce71.chunk.js.map",
+    "runtime-main.js": "/React_Portfolio/static/js/runtime-main.9f4a3144.js",
+    "runtime-main.js.map": "/React_Portfolio/static/js/runtime-main.9f4a3144.js.map",
+    "static/js/2.2a017f78.chunk.js": "/React_Portfolio/static/js/2.2a017f78.chunk.js",
+    "static/js/2.2a017f78.chunk.js.map": "/React_Portfolio/static/js/2.2a017f78.chunk.js.map",
+    "index.html": "/React_Portfolio/index.html",
+    "static/css/main.10ea7aca.chunk.css.map": "/React_Portfolio/static/css/main.10ea7aca.chunk.css.map",
+    "static/js/2.2a017f78.chunk.js.LICENSE.txt": "/React_Portfolio/static/js/2.2a017f78.chunk.js.LICENSE.txt",
+    "static/media/AutoWizardPicture.93ae3579.PNG": "/React_Portfolio/static/media/AutoWizardPicture.93ae3579.PNG",
+    "static/media/Budget_Tracker_Card_Image.8d8e2638.PNG": "/React_Portfolio/static/media/Budget_Tracker_Card_Image.8d8e2638.PNG",
+    "static/media/Note_Taker_Card_Image.5d341d4a.PNG": "/React_Portfolio/static/media/Note_Taker_Card_Image.5d341d4a.PNG",
+    "static/media/Project1_Card_Image.4d64f50a.PNG": "/React_Portfolio/static/media/Project1_Card_Image.4d64f50a.PNG",
+    "static/media/Project2_Card_Image.38330e04.PNG": "/React_Portfolio/static/media/Project2_Card_Image.38330e04.PNG",
+    "static/media/TextResume.d8957bc9.pdf": "/React_Portfolio/static/media/TextResume.d8957bc9.pdf",
+    "static/media/Workout_Tracker_Card_Image.14fbf14d.PNG": "/React_Portfolio/static/media/Workout_Tracker_Card_Image.14fbf14d.PNG",
+    "static/media/austin-1402097_1920.80ce3672.jpg": "/React_Portfolio/static/media/austin-1402097_1920.80ce3672.jpg",
+    "static/media/mountaineer-2080138_1920.0ac2a959.jpg": "/React_Portfolio/static/media/mountaineer-2080138_1920.0ac2a959.jpg",
+    "static/media/travel-1749508_1920.435b554d.jpg": "/React_Portfolio/static/media/travel-1749508_1920.435b554d.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9f4a3144.js",
+    "static/js/2.2a017f78.chunk.js",
+    "static/css/main.10ea7aca.chunk.css",
+    "static/js/main.e5c4ce71.chunk.js"
+  ]
+}
