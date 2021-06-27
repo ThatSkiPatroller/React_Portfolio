@@ -10,8 +10,7 @@ const useStyles = makeStyles({
         maxWidth: 345,
         margin: '10px',
         backgroundColor: 'rgb(175, 175, 175)',
-        color: 'black'
-        
+        color: 'black',
         },
     media: {
         height: 200,
@@ -28,11 +27,11 @@ const useStyles = makeStyles({
         height: 50,
         display: 'flex',
         justifyContent: 'flex-start',
-        alignItems: 'flex-start'
+        alignItems: 'flex-start',
+        
     },
     nd: {
         height: 200,
-        
     }
 });
 

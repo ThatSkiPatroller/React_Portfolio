@@ -77,23 +77,21 @@ function Bio () {
             <Grid  item xs={4} >
               <div className='firstBio'>
                 <Typography variant='display2' className='firstText' ><b>
-                Full stack web developer and graduate of The University of Texas at Austin with a bachelors in Biology, a minor in French and a Certificate in Full Stack Development
+                Full stack web developer and graduate of The University of Texas at Austin with a bachelors in Biology, a Certificate in Health Professions and a Certificate in Full Stack Development
                 </b></Typography>
               </div>
             </Grid>
             <Grid item xs={4}>
               <div className='secondBio'>
                 <Typography variant='display2' ><b>
-                My core skills include JavaScript, CSS, HTML, Node.js, React.js, Mongoose/MongoDB, MySQL, Sequelize, Jest, jQuery,  Handlebars.js, ExpressJS, and GitHub/Git BASH 
+                My core skills include JavaScript ES6+, CSS, HTML, Node.js, React.js, Mongoose/MongoDB, MySQL, NoSQL, Sequelize, Jest, jQuery,  Handlebars.js, ExpressJS, and GitHub/Git BASH 
                 </b></Typography>
               </div>
             </Grid>
             <Grid  item xs={4}>
               <div className='thirdBio'>
                 <Typography variant='display2'><b>
-                Fast decision making 
-                and teamwork are core skill I have taken from my work as a first responder and utilize in 
-                software development
+                 Experience working with development teams utilizing the scrum and agile framework on creative, strategic, and technical levels with fast decision making and teamworks skills
                 </b></Typography>
               </div>
             </Grid>
