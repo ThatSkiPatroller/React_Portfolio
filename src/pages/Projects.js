@@ -5,6 +5,8 @@ import WorkoutTracker from "../components/Images/Workout_Tracker_Card_Image.PNG"
 import Project1 from "../components/Images/Project1_Card_Image.PNG";
 import Project2 from "../components/Images/Project2_Card_Image.PNG";
 import ProjCard from '../components/ProjCard';
+import JobBoard from '../components/Images/Job_Board_app.PNG';
+import Chat from '../components/Images/Chat.PNG';
 import { Grid } from '@material-ui/core';
 import Header from '../components/Header';
 import Project3 from '../components/Images/AutoWizardPicture.PNG';
@@ -29,6 +31,8 @@ function Projects () {
                 description='This application allows the user to keep track of their workouts with specific imputs that count time intervals, reps, type of excersize and more' />
                 <ProjCard name='Project Three' img={Project3} repo='https://github.com/ThatSkiPatroller/AutoMaintenance' deployed='https://obscure-cove-65281.herokuapp.com/'
                 description='This final project for the UT Austin Coding Bootcamp works as a car maintenance website where the user can add vehicles, as well as make appointments.'/>
+                <ProjCard name='GraphQL Job Board' img={JobBoard} repo='https://github.com/ThatSkiPatroller/GraphQL_JobBoard' description='This application is a Job Board site that implements GraphQL as well as Apollo Client with the React.js library. This application is not deployed but can be cloned from my GitHub.' />
+                <ProjCard name='GraphQL Chat App' img={Chat} repo='https://github.com/ThatSkiPatroller/GraphQL_Chat' description='This is a chat application that uses GraphQL, Apollo, React and WebSocket API to give all the users real-time event-driven responses. This application is not deployed but can be cloned from my GitHub'/>
             </Grid>
             <div style={space}/>
         </div>
