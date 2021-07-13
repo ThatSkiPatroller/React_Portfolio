@@ -90,7 +90,7 @@ function Bio () {
             <Grid  item xs={4}>
               <div className='thirdBio'>
                 <Typography variant='display2'><b>
-                 Experience working with development teams utilizing the scrum and agile framework on creative, strategic, and technical levels with fast decision making and teamworks skills
+                 Experience working with development teams utilizing the scrum and agile framework on creative, strategic, and technical levels with fast decision making and teamwork skills
                 </b></Typography>
               </div>
             </Grid>
