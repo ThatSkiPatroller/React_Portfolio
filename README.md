@@ -1,7 +1,7 @@
 # My React Portfolio
-https://github.com/undefined/undefined
+https://thatskipatroller.github.io/React_Portfolio/#/
 # Description
-This is my React app that I made to showcase my projects, resume, bio and links for contact. This application uses technologies such as react-parllax, Material UI, and react-fontawesome. This application can be found hosted on Github Pages at https://thatskipatroller.github.io/React_Portfolio/#/ 
+This portfolio website I made using React to showcase my projects, resume, bio and links for contact. This application uses technologies such as react-parllax, Material UI, and react-fontawesome. This application can be found hosted on Github Pages at https://thatskipatroller.github.io/React_Portfolio/#/ 
 # Table of Contents
 * [Installation](#installation)
 * [Usage](#usage)
@@ -13,7 +13,7 @@ If you are running this app locally, run 'npm i' to install the necessary depend
 # Usage
 I hope you enjoy my Portfolio and feel free to contact me through my links!
 # Contributing
-Contributors: undefined
+Contributors: N/A
 # Testing
 N/A
 # Questions

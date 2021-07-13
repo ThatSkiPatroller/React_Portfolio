@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Grid, Typography, Button } from '@material-ui/core';
+import React from 'react';
+import { Grid, Typography} from '@material-ui/core';
 import './style.css';
 import { Parallax } from 'react-parallax';
 import image from '../Images/travel-1749508_1920.jpg';
@@ -7,7 +7,6 @@ import image2 from '../Images/mountaineer-2080138_1920.jpg';
 import image3 from '../Images/austin-1402097_1920.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSkiing, faServer, faCodeBranch, faCode, faAtom, faChevronDown, faLaughSquint, faExclamationTriangle, faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons';
-import { keys } from '@material-ui/core/styles/createBreakpoints';
 
 
 const inlineStyle = {
@@ -33,11 +32,12 @@ const icons = {
 }
 
 const threeBoxes = {
-  color: 'white',
+  background: 'rgba(255,255,255, 0.5)',
+  color: 'black',
   fontSize: '21px',
   top: '30%',
   position: 'absolute',
-  textShadow: '3px 0 black, 0 3px black, 3px 0 black, 0 3px black',
+  // textShadow: '2px 0 white, 0 2px white, 2px 0 white, 0 2px white',
 }
 
 const iconic = {
@@ -57,12 +57,12 @@ const locationIcon = {
 
 function Bio () {
   return (
-    <div style={{ textAlign: 'center' }}>
+    <div style={{ textAlign: 'center', fontFamily: 'Bree Serif' }}>
       <h1><FontAwesomeIcon icon={faExclamationTriangle} /></h1>
       <Parallax bgImage={image}  strength={700}>
         <div style={{ height: 500}}>
           <div style={inlineStyle} >
-          <Typography variant='display2' className='firstbox'> 
+          <Typography variant='display2' className='firstbox'>
             Hi, I'm Trace
         </Typography>
           </div>
@@ -73,7 +73,6 @@ function Bio () {
         <div style={{ height: 500}}>
           <div style={icons}><FontAwesomeIcon icon={faSkiing} style={iconic}/><FontAwesomeIcon icon={faServer} style={iconic}/><FontAwesomeIcon icon={faCodeBranch} style={iconic}/><FontAwesomeIcon icon={faCode} style={iconic}/><FontAwesomeIcon icon={faAtom} style={iconic}/></div>
           <Grid container direction='row' style={threeBoxes} justify='center'>
-          
             <Grid  item xs={4} >
               <div className='firstBio'>
                 <Typography variant='display2' className='firstText' ><b>
