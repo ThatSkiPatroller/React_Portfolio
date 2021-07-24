@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/React_Portfolio/static/css/main.10ea7aca.chunk.css",
-    "main.js": "/React_Portfolio/static/js/main.e988b098.chunk.js",
-    "main.js.map": "/React_Portfolio/static/js/main.e988b098.chunk.js.map",
+    "main.js": "/React_Portfolio/static/js/main.b89018a6.chunk.js",
+    "main.js.map": "/React_Portfolio/static/js/main.b89018a6.chunk.js.map",
     "runtime-main.js": "/React_Portfolio/static/js/runtime-main.9f4a3144.js",
     "runtime-main.js.map": "/React_Portfolio/static/js/runtime-main.9f4a3144.js.map",
     "static/js/2.e0db9424.chunk.js": "/React_Portfolio/static/js/2.e0db9424.chunk.js",
@@ -21,12 +21,13 @@
     "static/media/Workout_Tracker_Card_Image.14fbf14d.PNG": "/React_Portfolio/static/media/Workout_Tracker_Card_Image.14fbf14d.PNG",
     "static/media/austin-1402097_1920.80ce3672.jpg": "/React_Portfolio/static/media/austin-1402097_1920.80ce3672.jpg",
     "static/media/mountaineer-2080138_1920.0ac2a959.jpg": "/React_Portfolio/static/media/mountaineer-2080138_1920.0ac2a959.jpg",
+    "static/media/readmegenpic.46251da9.PNG": "/React_Portfolio/static/media/readmegenpic.46251da9.PNG",
     "static/media/travel-1749508_1920.435b554d.jpg": "/React_Portfolio/static/media/travel-1749508_1920.435b554d.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.9f4a3144.js",
     "static/js/2.e0db9424.chunk.js",
     "static/css/main.10ea7aca.chunk.css",
-    "static/js/main.e988b098.chunk.js"
+    "static/js/main.b89018a6.chunk.js"
   ]
 }
