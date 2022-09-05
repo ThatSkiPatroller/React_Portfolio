@@ -2,9 +2,6 @@ import React from 'react';
 import { Grid, Typography} from '@material-ui/core';
 import './style.css';
 import { Parallax } from 'react-parallax';
-import image from '../Images/travel-1749508_1920.jpg';
-import image2 from '../Images/mountaineer-2080138_1920.jpg';
-import image3 from '../Images/austin-1402097_1920.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSkiing, faServer, faCodeBranch, faCode, faAtom, faChevronDown, faLaughSquint, faExclamationTriangle, faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons';
 
@@ -59,7 +56,7 @@ function Bio () {
   return (
     <div style={{ textAlign: 'center', fontFamily: 'Bree Serif' }}>
       <h1><FontAwesomeIcon icon={faExclamationTriangle} /></h1>
-      <Parallax bgImage={image}  strength={700}>
+      <Parallax bgImage="https://d1wedsacc4lfnu.cloudfront.net/react_portfolio12.jpg"  strength={700}>
         <div style={{ height: 500}}>
           <div style={inlineStyle} >
           <Typography variant='display2' className='firstbox'>
@@ -69,7 +66,7 @@ function Bio () {
         </div>
       </Parallax>
       <h1><FontAwesomeIcon icon={faChevronDown} /></h1>
-      <Parallax bgImage={image2}  strength={700}>
+      <Parallax bgImage="https://d1wedsacc4lfnu.cloudfront.net/react_portfolio6.jpg"  strength={700}>
         <div style={{ height: 500}}>
           <div style={icons}><FontAwesomeIcon icon={faSkiing} style={iconic}/><FontAwesomeIcon icon={faServer} style={iconic}/><FontAwesomeIcon icon={faCodeBranch} style={iconic}/><FontAwesomeIcon icon={faCode} style={iconic}/><FontAwesomeIcon icon={faAtom} style={iconic}/></div>
           <Grid container direction='row' style={threeBoxes} justify='center'>
@@ -98,7 +95,7 @@ function Bio () {
         </div>
       </Parallax>
       <h1><FontAwesomeIcon icon={faChevronDown} /></h1>
-      <Parallax bgImage={image3}  strength={700}>
+      <Parallax bgImage="https://d1wedsacc4lfnu.cloudfront.net/react_portfolio1.jpg"  strength={700}>
         <div style={{ height: 500}}>
           <div style={locationIcon}>
           <FontAwesomeIcon icon={faMapMarkerAlt} /><span> </span>
