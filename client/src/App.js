@@ -1,24 +1,17 @@
+/* eslint-disable react/prefer-stateless-function */
 import React from "react";
-import { BrowserRouter, Route} from  "react-router-dom";
-import NavTabs from "./components/Navbar/Navbar";
-import Footer from "./components/Footer"
-import Home from "./pages/Home";
-import Projects from "./pages/Projects";
-import Contact from "./pages/Contact";
-import Resume from "./pages/Resume";
-import './App.css';
+import { BrowserRouter as Router, Route, Switch } from  "react-router-dom";
+import Home from './Pages/Home';
+import './App.css'
 
-function App() {
+function App () {
   return (
-    <BrowserRouter>
-        <NavTabs />
-        <Route exact path="/" component={Home} />
-        <Route exact path="/Projects" component={Projects} />
-        <Route exact path="/Contact" component={Contact} />
-        <Route exact path="/Resume" component={Resume} />
-        <Footer />
-    </BrowserRouter>
-  );
+    <Router>
+      <Switch>
+        <Route exact path='/' component={Home} />
+      </Switch>
+    </Router> 
+  )
 }
 
 export default App;

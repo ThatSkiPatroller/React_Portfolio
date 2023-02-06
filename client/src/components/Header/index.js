@@ -1,19 +1,34 @@
-import React from 'react';
-import {Typography} from '@material-ui/core';
-import './style.css';
+import React from "react";
+import './style.css'
 
-function Header (props) {
-    const headOf = {
-        color: 'rgb(117, 117, 115)',
-        textShadow: '2px 0 white, 0 2px white, 1px 0 white, 0 1px white'
-    }
-
-    return(
-        <div id='cntnr'>
-            <Typography variant='h2' align='center' id='header' style={headOf}>
-                {props.header}
-            </Typography>
+function Header () {
+    return (
+        <header class="header valign bg-img position-re" data-scroll-index="0" data-overlay-dark="4" data-background="https://d1wedsacc4lfnu.cloudfront.net/towerpic.webp" data-stellar-background-ratio="0.5">
+        <div class="container">
+            <div class="row">
+                <div class="full-width text-center caption mt-50">
+                    <h2>Welcome!</h2>
+                    <h1 class="cd-headline push">
+                        <span class="blc">I am</span>
+                        <span class="cd-words-wrapper">
+                          <b class="is-visible">Trace Suiter</b>
+                          <b>Web Design</b>
+                          <b>Web Development</b>
+                          <b>SEO Compliance</b>
+                        </span>
+                    </h1>
+                    <div class="social mt-30">
+                        <a href="#0"><i class="icofont icofont-social-facebook"></i></a>
+                        <a href="#0"><i class="icofont icofont-social-twitter"></i></a>
+                        <a href="#0"><i class="icofont icofont-social-instagram"></i></a>
+                        <a href="#0"><i class="icofont icofont-brand-linkedin"></i></a>
+                        <a href="#0"><i class="icofont icofont-social-behance"></i></a>
+                    </div>
+                    
+                </div>
+            </div>
         </div>
+    </header>
     )
 }
 
