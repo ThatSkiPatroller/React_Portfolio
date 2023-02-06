@@ -1,47 +1,27 @@
 import React from "react";
-import "./style.css"
-import { Link, useLocation } from "react-router-dom";
+import './style.css';
 
 function Footer () {
-    const firstBar = {
-        backgroundColor: 'rgb(251, 223, 186)',
-        textAlign: 'center',
-    }
-
-    const copyright = {
-        backgroundColor: 'rgb(245, 200, 141)'
-    }
-    const location = useLocation();
     
     return (
-        <div>
-            <footer class="glass pt-4">
-                <section class="mb-4">
-                    <Link to="/" className={location.pathname === "/" ? "nav-link active disp" : "nav-link disp"}>
-                        Home
-                    </Link>
-          
-                    <Link to="/Projects" className={location.pathname === "/Projects" ? "nav-link active disp" : "nav-link disp"}>
-                        Projects
-                    </Link>
-          
-                    <Link to="/Contact" className={location.pathname === "/contact" ? "nav-link active disp" : "nav-link disp"}>
-                        Contact
-                    </Link>
-          
-                    <Link to="/Resume" className={location.pathname === "/resume" ? "nav-link active disp" : "nav-link disp"}>
-                        Resume
-                    </Link>
-                </section>
-
-                <div class="text-center p-4 bottom glass" >
-                    © 2021 Copyright TraceSuiter.com
+        <footer class="text-center bg-dark position-re">
+            <div class="container">
+                <a class="logo" href="#">
+                    <img src="img/logo-light.png" alt="logo"/>          
+                </a>
+                
+                <div class="social">
+                    <a href="#0"><i class="icofont icofont-social-facebook"></i></a>
+                    <a href="#0"><i class="icofont icofont-social-twitter"></i></a>
+                    <a href="#0"><i class="icofont icofont-social-instagram"></i></a>
+                    <a href="#0"><i class="icofont icofont-brand-linkedin"></i></a>
+                    <a href="#0"><i class="icofont icofont-social-behance"></i></a>
                 </div>
-
-            </footer>
-        </div>
-    );
+            
+            </div>
+            {/* <svg class="wave" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1920 81.717" enable-background="new 0 0 1920 81.717" xml:space="preserve"><path style="" d="M1920,0c0,0-109.246,46.107-316.333,67.334C1343.5,94,1137.095,77.238,999.167,67.5C854,57.25,637.662,24.697,541.709,18.834C375.334,8.666,147,11,0,37.875V0H1920L1920,0z"></path></svg> */}
+        </footer>
+    )
 }
 
 export default Footer;
-

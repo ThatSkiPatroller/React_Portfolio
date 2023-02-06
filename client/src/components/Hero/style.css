@@ -1,0 +1,142 @@
+.about .skills {
+    padding: 100px 0;
+  }
+  .about .skills h6 {
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 10px;
+  }
+  .about .skills .skill-progress {
+    height: 8px;
+    width: 100%;
+    background-color: #333;
+    border-radius: 20px;
+    position: relative;
+  }
+  .about .skills .skill-progress .progres {
+    width: 10%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 20px;
+    background-color: #c49b66;
+    -webkit-transition: all 1.5s;
+    transition: all 1.5s;
+  }
+  .about .skills .skill-progress .progres:after {
+    content: attr(data-value);
+    position: absolute;
+    top: -15px;
+    right: 0;
+    font-size: 10px;
+  }
+  .about .hero-img {
+    background-position: 50% 50%;
+  }
+  .about .content {
+    padding: 100px 0;
+  }
+  .about .content h6 {
+    font-size: 12px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    margin-bottom: 10px;
+  }
+  .about .content h4 {
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #fff;
+    background: #c49b66;
+    padding: 5px 10px;
+    margin-bottom: 40px;
+  }
+  .about .content h5 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  .about .content .social span {
+    position: relative;
+    padding-right: 50px;
+    color: #c49b66;
+    font-size: 12px;
+  }
+  .about .content .social span:after {
+    content: '';
+    width: 40px;
+    height: 1px;
+    background-color: #eee;
+    position: absolute;
+    right: 0;
+    top: 50%;
+  }
+  .about .content .social a {
+    font-size: 12px;
+    margin: 0 10px;
+  }
+  .about .content .social a:hover {
+    color: #c49b66;
+  }
+  
+  .hero {
+    z-index: 3;
+  }
+  .hero .wave {
+    -webkit-transform: rotate(180deg) translateY(100%);
+            transform: rotate(180deg) translateY(100%);
+    top: 1px;
+  }
+  .hero .content {
+    padding-top: 50px;
+  }
+  .hero .content h6 {
+    font-size: 12px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    margin-bottom: 10px;
+  }
+  .hero .content h4 {
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #fff;
+    background: #c49b66;
+    padding: 5px 10px;
+    margin-bottom: 40px;
+  }
+  .hero .content h5 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  .hero .content .social span {
+    position: relative;
+    padding-right: 50px;
+    color: #c49b66;
+    font-size: 12px;
+  }
+  .hero .content .social span:after {
+    content: '';
+    width: 40px;
+    height: 1px;
+    background-color: #eee;
+    position: absolute;
+    right: 0;
+    top: 50%;
+  }
+  .hero .content .social a {
+    font-size: 12px;
+    margin: 0 10px;
+  }
+  .hero .content .social a:hover {
+    color: #c49b66;
+  }
+  .hero .content .butn {
+    margin-left: 0;
+  }

@@ -1,7 +1,30 @@
-#header {
-    font-family: 'Source Code Pro', monospace;;
-}
-
-#cntnr {
-    padding: 20px;
-}
+.header {
+    min-height: 110vh;
+  }
+  .header .caption .o-hidden {
+    display: inline-block;
+  }
+  .header .caption h2 {
+    font-size: 70px;
+    font-weight: 300;
+    letter-spacing: 4px;
+  }
+  .header .caption h1 {
+    margin: 15px 0;
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: 2px;
+  }
+  .header .caption .social {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 30px;
+    background-color: rgba(200, 200, 200, 0.05);
+  }
+  .header .caption .social a {
+    padding: 0 15px;
+    font-size: 14px;
+  }
+  .header .caption .social a:hover {
+    color: #c49b66;
+  }
