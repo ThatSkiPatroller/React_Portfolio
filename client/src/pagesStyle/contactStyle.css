@@ -7,19 +7,21 @@ html, body {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 700px;
-  height: 500px;
+  width: 400px;
+  height: 400px;
   color: white;
   font-family: 'Raleway';
   font-size: 2.5rem;
   margin: auto;
 }
+
 .gradient-border {
   --borderWidth: 10px;
-  background: #1D1F20;
+  background: rgb(153, 146, 146);
   position: relative;
   border-radius: var(--borderWidth);
 }
+
 .gradient-border:after {
   content: '';
   position: absolute;

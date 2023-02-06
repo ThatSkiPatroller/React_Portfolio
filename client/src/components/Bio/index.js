@@ -1,5 +1,5 @@
 import React from 'react';
-import { Grid, Typography, Card, CardContent} from '@material-ui/core';
+import { Typography } from '@material-ui/core';
 import './style.css';
 import { Parallax } from 'react-parallax';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
