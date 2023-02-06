@@ -1,13 +1,13 @@
 import React from "react";
-import Loading from '../Components/Loading'
-import Navbar from "../Components/Navbar";
-import Header from "../Components/Header";
-import Hero from '../Components/Hero';
-import Services from "../Components/Services";
-import Portfolio from '../Components/Portfolio';
-import Resume from '../Components/Resume';
-import Contact from '../Components/Contact'
-import Footer from "../Components/Footer";
+import Loading from '../component/Loading'
+import Navbar from "../component/Navbar";
+import Header from "../component/Header";
+import Hero from '../component/Hero';
+import Services from "../component/Services";
+import Portfolio from '../component/Portfolio';
+import Resume from '../component/Resume';
+import Contact from '../component/Contact'
+import Footer from "../component/Footer";
 
 
 function Home () {
