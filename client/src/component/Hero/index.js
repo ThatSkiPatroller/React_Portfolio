@@ -9,7 +9,7 @@ function Hero () {
                 
                 <div class="col-lg-5">
                     <div class="hero-img">
-                        <img src="https://d1wedsacc4lfnu.cloudfront.net/seniorPhoto2.webp" alt=""/>
+                        <img class="hero-img"src="https://d1wedsacc4lfnu.cloudfront.net/seniorPhoto2.webp" height='400px' alt=""/>
                     </div>
                 </div>
                 <div class="offset-lg-1 col-lg-6">
