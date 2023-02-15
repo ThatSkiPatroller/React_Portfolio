@@ -16,7 +16,7 @@ function Header () {
                           <b>&nbsp; Development</b>
                         </span>
                     </h1>
-                    <div class="social mt-30">
+                    <div class="social">
                         <a href="https://github.com/ThatSkiPatroller"><i class="icofont icofont-social-github"></i></a>
                         <a href="https://www.linkedin.com/in/trace-suiter/"><i class="icofont icofont-brand-linkedin"></i></a>
                     </div>
