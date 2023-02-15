@@ -1,5 +1,7 @@
 .pdfViewer {
   margin: auto;
+  height: 900px;
+  width: 100%;
 }
 .blog .item {
     -webkit-box-shadow: 0px 15px 40px rgba(0, 0, 0, 0.1);
@@ -432,14 +434,10 @@
   .side-bar .tags li:hover {
     background-color: #222;
   }
-.pdfViewer {
-  height:"900px";
-  width:"100%";
-}
 
 @media screen and (max-width: 480px) {
   .pdfViewer {
-    width: 350px;
-    height: 400px;
+    margin: 20px;
+    max-height: 450px;
   }
 }
