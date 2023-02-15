@@ -140,3 +140,11 @@
   .hero .content .butn {
     margin-left: 0;
   }
+
+@media screen and (max-width: 480px) {
+  .hero-img {
+    width: 200px;
+    margin-top: -50px !important;
+    margin: auto;
+  }
+}
