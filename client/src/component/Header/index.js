@@ -7,7 +7,7 @@ function Header () {
         <div class="container">
             <div class="row">
                 <div class="full-width text-center caption mt-50">
-                    <h2>Welcome!</h2>
+                    <h2 class="blc">Welcome!</h2>
                     <h1 class="cd-headline push">
                         <span class="blc">I am</span>
                         <span class="cd-words-wrapper">

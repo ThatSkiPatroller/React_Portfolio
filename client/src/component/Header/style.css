@@ -28,3 +28,9 @@
   .header .caption .social a:hover {
     color: #c49b66;
   }
+
+  @media screen and (max-width: 480px) {
+    .blc {
+      font-size: 35px !important;
+    }
+}
