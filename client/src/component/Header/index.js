@@ -13,13 +13,14 @@ function Header () {
                         <span class="cd-words-wrapper">
                           <b class="is-visible">Trace Suiter</b>
                           <b>Web Design</b>
-                          <b>&nbsp;Web Development</b>
+                          <b>&nbsp; Development</b>
                         </span>
                     </h1>
                     <div class="social mt-30">
                         <a href="https://github.com/ThatSkiPatroller"><i class="icofont icofont-social-github"></i></a>
                         <a href="https://www.linkedin.com/in/trace-suiter/"><i class="icofont icofont-brand-linkedin"></i></a>
                     </div>
+                    
                 </div>
             </div>
         </div>

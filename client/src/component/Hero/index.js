@@ -9,7 +9,7 @@ function Hero () {
                 
                 <div class="col-lg-5">
                     <div class="hero-img">
-                        <img class="hero-img"src="https://d1wedsacc4lfnu.cloudfront.net/seniorPhoto2.webp" height='400px' alt=""/>
+                        <img src="https://d1wedsacc4lfnu.cloudfront.net/seniorPhoto2.webp" alt=""/>
                     </div>
                 </div>
                 <div class="offset-lg-1 col-lg-6">
@@ -18,8 +18,8 @@ function Hero () {
                         <h4>Trace Suiter.</h4>
                         <h5>Professional Web Developer</h5>
                         <p class="mb-10">Graduate of The University of Texas at Austin with full stack development experience in the financial technology industry and continued freelancing experience in commercial websites.</p>
-                        <p class="mb-40">Nulla metus metus ullamcorper vel tincidunt sed euismod nibh Quisque volutpat condimentum velit class aptent taciti sociosqu ad litora torquent metus metus ullamcorper vel tincidunt sed class aptent taciti sociosqu ad litora torquent type setting industry when per conubia nostra.</p>
-                        <a href="CV.pdf" class="butn butn-bord" target="_blank">
+                        <p class="mb-40">This site acts as my personal portfolio to showcase my past projects and experience. Thanks for visiting!</p>
+                        <a href="#0" class="butn butn-bord" data-scroll-nav="4">
                             <span>Download CV</span>
                         </a>
                         <a href="#0" class="butn butn-light" data-scroll-nav="5">

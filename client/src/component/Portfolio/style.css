@@ -24,6 +24,12 @@
   .portfolio .items.width2 {
     width: 25%;
   }
+  .portfolio .items.width3 {
+    width: 35%;
+  }
+  .portfolio .items.width4 {
+    width: 32%;
+  }
   .portfolio .item-img {
     position: relative;
     overflow: hidden;

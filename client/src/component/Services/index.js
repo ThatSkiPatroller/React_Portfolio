@@ -14,28 +14,28 @@ function Services () {
                         <div class="item mb-md50">
                             <i class="icon icofont icofont-paint"></i>
                             <h6>Web Design</h6>
-                            <p>Nulla metus metus ullamcorper vel tincidunt sed euismod nibh Quisque volutpat</p>
+                            <p>Creating and applying wireframes to frontend frameworks such as React and Angular</p>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6">
                         <div class="item mb-md50">
                             <i class="icon icofont icofont-ui-fire-wall"></i>
                             <h6>Development</h6>
-                            <p>Nulla metus metus ullamcorper vel tincidunt sed euismod nibh Quisque volutpat</p>
+                            <p>Full Stack maintenance and updates aimed at improving client's speed and ease of interaction</p>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6">
                         <div class="item mb-sm50">
-                            <i class="icon icofont icofont-instrument"></i>
-                            <h6>Branding</h6>
-                            <p>Nulla metus metus ullamcorper vel tincidunt sed euismod nibh Quisque volutpat</p>
+                            <i class="icon icofont icofont-cloud"></i>
+                            <h6>Cloud</h6>
+                            <p>Provide scalable & secure cloud solutions ensuring your website can handle high traffic</p>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6">
                         <div class="item">
                             <i class="icon icofont icofont-chart-histogram-alt"></i>
                             <h6>Marketing</h6>
-                            <p>Nulla metus metus ullamcorper vel tincidunt sed euismod nibh Quisque volutpat</p>
+                            <p>Effective SEO strategies achieving higher search engine rankings & increased visibility</p>
                         </div>
                     </div>
                 </div>

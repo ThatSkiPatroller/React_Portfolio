@@ -1,3 +1,6 @@
+.pdfViewer {
+  margin: auto;
+}
 .blog .item {
     -webkit-box-shadow: 0px 15px 40px rgba(0, 0, 0, 0.1);
             box-shadow: 0px 15px 40px rgba(0, 0, 0, 0.1);

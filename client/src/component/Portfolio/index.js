@@ -20,7 +20,7 @@ function Portfolio () {
                     
                     <div class="gallery text-center full-width">
                         
-                        <div class="items graphic">
+                        <div class="items width3 graphic">
                             <div class="item-img">
                                 <img src="https://d1wedsacc4lfnu.cloudfront.net/react_portfolio9.PNG" alt="image"/>
                                 <div class="item-img-overlay valign">
@@ -35,7 +35,7 @@ function Portfolio () {
                             </div>
                         </div>
                         
-                        <div class="items web">
+                        <div class="items width3 web">
                             <div class="item-img">
                                 <img src="https://d1wedsacc4lfnu.cloudfront.net/react_portfolio3.PNG" alt="image"/>
                                 <div class="item-img-overlay valign">
@@ -50,7 +50,7 @@ function Portfolio () {
                             </div>
                         </div>
                         
-                        <div class="items width2 graphic">
+                        <div class="items width3 web">
                             <div class="item-img">
                                 <img src="https://d1wedsacc4lfnu.cloudfront.net/react_portfolio7.PNG" alt="image"/>
                                 <div class="item-img-overlay valign">
@@ -65,7 +65,7 @@ function Portfolio () {
                             </div>
                         </div>
                         
-                        <div class="items width2 brand">
+                        <div class="items width4 graphic">
                             <div class="item-img">
                                 <img src="https://d1wedsacc4lfnu.cloudfront.net/react_portfolio10.PNG" alt="image"/>
                                 <div class="item-img-overlay valign">
@@ -80,7 +80,7 @@ function Portfolio () {
                             </div>
                         </div>
                         
-                        <div class="items brand">
+                        <div class="items width2 web">
                             <div class="item-img">
                                 <img src="https://d1wedsacc4lfnu.cloudfront.net/react_portfolio13.PNG" alt="image"/>
                                 <div class="item-img-overlay valign">
@@ -95,7 +95,7 @@ function Portfolio () {
                             </div>
                         </div>
                         
-                        <div class="items web">
+                        <div class="items width3 graphic">
                             <div class="item-img">
                                 <img src="https://d1wedsacc4lfnu.cloudfront.net/react_portfolio2.PNG" alt="image"/>
                                 <div class="item-img-overlay valign">
@@ -110,7 +110,7 @@ function Portfolio () {
                             </div>
                         </div>
                         
-                        <div class="items brand">
+                        <div class="items width2 web">
                             <div class="item-img">
                                 <img src="https://d1wedsacc4lfnu.cloudfront.net/react_portfolio5.PNG" alt="image"/>
                                 <div class="item-img-overlay valign">
@@ -125,7 +125,7 @@ function Portfolio () {
                             </div>
                         </div>
 
-                        <div class="items brand">
+                        <div class="items width4 web">
                             <div class="item-img">
                                 <img src="https://d1wedsacc4lfnu.cloudfront.net/react_portfolio4.PNG" alt="image"/>
                                 <div class="item-img-overlay valign">
@@ -140,7 +140,7 @@ function Portfolio () {
                             </div>
                         </div>
 
-                        <div class="items brand">
+                        <div class="items width3 web">
                             <div class="item-img">
                                 <img src="https://d1wedsacc4lfnu.cloudfront.net/react_portfolio11.PNG" alt="image"/>
                                 <div class="item-img-overlay valign">
