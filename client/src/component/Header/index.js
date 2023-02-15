@@ -13,18 +13,13 @@ function Header () {
                         <span class="cd-words-wrapper">
                           <b class="is-visible">Trace Suiter</b>
                           <b>Web Design</b>
-                          <b>Web Development</b>
-                          <b>SEO Compliance</b>
+                          <b>&nbsp;Web Development</b>
                         </span>
                     </h1>
                     <div class="social mt-30">
-                        <a href="#0"><i class="icofont icofont-social-facebook"></i></a>
-                        <a href="#0"><i class="icofont icofont-social-twitter"></i></a>
-                        <a href="#0"><i class="icofont icofont-social-instagram"></i></a>
-                        <a href="#0"><i class="icofont icofont-brand-linkedin"></i></a>
-                        <a href="#0"><i class="icofont icofont-social-behance"></i></a>
+                        <a href="https://github.com/ThatSkiPatroller"><i class="icofont icofont-social-github"></i></a>
+                        <a href="https://www.linkedin.com/in/trace-suiter/"><i class="icofont icofont-brand-linkedin"></i></a>
                     </div>
-                    
                 </div>
             </div>
         </div>
