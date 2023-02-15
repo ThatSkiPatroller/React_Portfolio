@@ -22,13 +22,16 @@
     width: 50%;
   }
   .portfolio .items.width2 {
-    width: 25%;
+    width: 35%;
+    margin-left: 90px;
   }
   .portfolio .items.width3 {
-    width: 35%;
+    width: 43%;
+    margin-left: 90px;
   }
   .portfolio .items.width4 {
-    width: 32%;
+    width: 30%;
+    margin-left: 90px;
   }
   .portfolio .item-img {
     position: relative;
@@ -75,3 +78,18 @@
     right: 15px;
     color: #c49b66;
   }
+
+@media screen and (max-width: 480px) {
+    .width2 {
+      width: 80% !important;
+      left: -45px !important;
+    }
+    .width4 {
+      width: 70% !important;
+      left: -22px !important;
+    }
+    .width3 {
+      width: 80% !important;
+      left: -45px !important;
+    }
+}
