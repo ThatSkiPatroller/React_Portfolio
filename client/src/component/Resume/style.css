@@ -432,3 +432,14 @@
   .side-bar .tags li:hover {
     background-color: #222;
   }
+.pdfViewer {
+  height:"900px";
+  width:"100%";
+}
+
+@media screen and (max-width: 480px) {
+  .pdfViewer {
+    width: 350px;
+    height: 400px;
+  }
+}

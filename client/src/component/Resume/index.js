@@ -17,7 +17,7 @@ function Resume () {
                         <h4>My Resume</h4>
                     </div>
 
-                    <embed class="pdfViewer" src='https://d1wedsacc4lfnu.cloudfront.net/TraceResume.pdf' type="application/pdf" height="900px" width="100%" />
+                    <embed class="pdfViewer" src='https://d1wedsacc4lfnu.cloudfront.net/TraceResume.pdf' type="application/pdf" />
                     
                 </div>
             </div>
