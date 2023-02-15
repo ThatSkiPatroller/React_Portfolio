@@ -1,5 +1,6 @@
 import React from "react";
 import './style.css';
+import logo from '../../Assets/logo.png'
 
 function Footer () {
     
@@ -7,7 +8,7 @@ function Footer () {
         <footer class="text-center bg-dark position-re">
             <div class="container">
                 <a class="logo" href="#">
-                    <img src="img/logo-light.png" alt="logo"/>          
+                    <img src={logo} alt="logo" width="20px"/>          
                 </a>
                 
                 <div class="social">
