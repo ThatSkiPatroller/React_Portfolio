@@ -81,15 +81,15 @@
 
 @media screen and (max-width: 480px) {
     .width2 {
-      width: 80% !important;
+      width: 85% !important;
       left: -45px !important;
     }
     .width4 {
-      width: 70% !important;
+      width: 75% !important;
       left: -22px !important;
     }
     .width3 {
-      width: 80% !important;
+      width: 85% !important;
       left: -45px !important;
     }
 }
