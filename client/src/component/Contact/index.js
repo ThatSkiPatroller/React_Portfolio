@@ -1,8 +1,9 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import emailjs from '@emailjs/browser';
 import './style.css';
 
 function Contact () {
+    const [count, setCount] = useState(true)
     const form = useRef();
 
     const sendEmail = (e) => {
@@ -14,7 +15,10 @@ function Contact () {
         }, (error) => {
             console.log(error.text);
         });
+
+        setCount(false);
     };
+
     
     return (
         <section class="contact section-padding position-re" data-scroll-index="5">
@@ -46,6 +50,7 @@ function Contact () {
                         </div>
                     </div>
                     
+                    {count ? (
                     <div class="col-lg-7">
                         <form ref={form} onSubmit={sendEmail} class="form" >
                             <div class="messages"></div>
@@ -78,9 +83,23 @@ function Contact () {
                             </div>
                         </form>
                     </div>
+                    )
+                    : (
+                        <div>
+                            <div>
+                        <div class="circle-border"></div>
+                        <div class="circle">
+                                <div class="success"></div>
+                        </div>
+                        </div>
+                        <br />
+                        <br />
+                        <div>Your message was sent! Thanks</div>
+                        </div>
+                    )}
                 </div>
             </div>
-            
+                    
            
         </section>
     )

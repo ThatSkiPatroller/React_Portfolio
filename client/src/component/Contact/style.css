@@ -36,4 +36,72 @@
   .contact .form .butn:hover {
     border-color: #c49b66;
   }
+
   
+  
+  .circle,
+  .circle-border {
+    width: 90px;
+    height: 150px;
+    border-radius: 50%;
+  }
+  .circle {
+    z-index: 1;
+    position: relative;
+    background: white;
+    transform: scale(1);
+    animation: success-anim 700ms ease;
+    padding-left: 200px;
+  }
+  .circle-border {
+    z-index: 0;
+    position: absolute;
+    background: green;
+    transform: scale(1.1);
+    animation: circle-anim 400ms ease;
+    padding-left: 200px;
+  }
+  
+  @keyframes success-anim {
+    0% {
+      transform: scale(0);
+    }
+    30% {
+      transform: scale(0);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  @keyframes circle-anim {
+    from {
+      transform: scale(0);
+    }
+    to {
+      transform: scale(1.1);
+    }
+  }
+  
+  .success::before,
+  .success::after {
+    content: "";
+    display: block;
+    height: 5px;
+    background: green;
+    position: absolute;
+  }
+  
+  .success::before {
+    width: 50px;
+    top: 58%;
+    left: 26%;
+    transform: rotateZ(50deg);
+  }
+  
+  .success::after {
+    width: 90px;
+    top: 50%;
+    left: 38%;
+    transform: rotateZ(-50deg);
+  }
