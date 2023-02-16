@@ -105,3 +105,26 @@
     left: 38%;
     transform: rotateZ(-50deg);
   }
+
+
+
+@media screen and (max-width: 480px) {
+  .circle {
+    padding-left: none;
+    
+  }
+
+  .circle-border {
+    padding-left: none;
+  }
+  .checkBox {
+    margin: auto;
+    width: 1%;
+  }
+
+  .sentMsg {
+      width: 100%;
+      margin-left: 45%;
+  };
+  
+}

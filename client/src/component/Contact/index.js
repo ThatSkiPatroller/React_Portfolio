@@ -86,7 +86,7 @@ function Contact () {
                     )
                     : (
                         <div>
-                            <div>
+                            <div className="checkBox">
                         <div class="circle-border"></div>
                         <div class="circle">
                                 <div class="success"></div>
@@ -94,7 +94,7 @@ function Contact () {
                         </div>
                         <br />
                         <br />
-                        <div>Your message was sent! Thanks</div>
+                        <div className="sentMsg"><p>Your message was sent! Thanks</p></div>
                         </div>
                     )}
                 </div>
