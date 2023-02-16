@@ -1,11 +1,20 @@
-import React from "react";
+import React, { useRef } from "react";
+import emailjs from '@emailjs/browser';
 import './style.css';
 
 function Contact () {
-    const attribElems = {
-        "xmlns":"http://www.w3.org/2000/svg",
-        "xmlns:xlink":"http://www.w3.org/1999/xlink"
-    }
+    const form = useRef();
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs.sendForm('service_6pwyibp','template_kr2hr5w', form.current, '236veo7fstPCXUDsO')
+        .then((result) => {
+            console.log(result.text);
+        }, (error) => {
+            console.log(error.text);
+        });
+    };
     
     return (
         <section class="contact section-padding position-re" data-scroll-index="5">
@@ -38,7 +47,7 @@ function Contact () {
                     </div>
                     
                     <div class="col-lg-7">
-                        <form class="form" id="contact-form" method="post" action="contact.php">
+                        <form ref={form} onSubmit={sendEmail} class="form" >
                             <div class="messages"></div>
                             <div class="controls">
                                 <div class="row">
@@ -63,7 +72,7 @@ function Contact () {
                                         </div>
                                     </div>
                                     <div class="col-md-12 text-center">
-                                        <button type="submit" class="butn butn-bg"><span>Send Message</span></button>
+                                        <button type="submit" value="Send" class="butn butn-bg"><span>Send Message</span></button>
                                     </div>
                                 </div>                             
                             </div>
